@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td><label for="name">Họ và tên:</label></td>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Ngày sinh:</label></td>
+                <td><input type="date" name="dob" id="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Giới tính:</label></td>
+                <td>
+                    <input type="radio" name="gender" id="gender" value="male">Nam
+                    <input type="radio" name="gender" id="gender" value="female">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td><label for="tel">Số điện thoại:</label></td>
+                <td><input type="tel" name="tel" id="tel"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Địa chỉ:</label></td>
+                <td><textarea name="address" id="address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="role">Vai trò trong nhóm:</label></td>
+                <td>
+                    <select name="role">   
+                        <option value="Thành viên">Thành viên</option>
+                        <option value="Nhóm phó">Nhóm phó</option>
+                        <option value="Nhóm trưởng">Nhóm trưởng</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="interest">Sở thích:</label></td>
+                <td><input type="text" name="interest" id="interest"></td>
+            </tr>
+            <tr>
+                <td><label for="skill">Kỹ năng:</label></td>
+                <td><textarea name="skill" id="skill"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="freetime">Thời gian rảnh:</label></td>
+                <td>
+                    <input type="checkbox" id="freetime" name="freetime" value="morning">Sáng
+                    <input type="checkbox" id="freetime" name="freetime" value="afternoon">Chiều
+                    <input type="checkbox" id="freetime" name="freetime" value="evening">Tối
+                </td>   
+            </tr>
+            <tr>
+                <td><label for="reason">Lý do tham gia nhóm:</label></td>
+                <td><textarea name="reason" id="reason"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="color">Màu sắc ưa thích:</label></td>
+                <td><input type="color" name="color" id="color"></td>
+            </tr>
+            <tr>
+                <td><label for="register">Đăng kí nhận bản tin:</label></td>
+                <td><input type="checkbox" name="register">Có</td>   
+            </tr>
+            <tr>
+                <td><label for="notify">Nhận thông báo qua email:</label></td>
+                <td>
+                    <input type="radio" name="notify" id="notify" value="Email">Email
+                    <input type="radio" name="notify" id="notify" value="SMS">SMS
+                </td>
+            </tr>
+            <tr>
+                <td><button type="submit">Đăng ký thành viên</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
