@@ -1,0 +1,13 @@
+body{
+    font-family:Arial, sans-serif
+}
+
+.head{
+    color: #0089de;
+}
+
+.child{
+    background-color: #fffaef;
+    border-left: 8px solid #decb53;
+    padding: 10px;
+}

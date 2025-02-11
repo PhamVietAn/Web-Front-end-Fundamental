@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container{
+    width: 98%;
+    margin: 20px auto;
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td{
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th{
+    background: #3276FF;
+    color: white;
+}
+
+tr:nth-child(even){
+    background: #f9f9f9;
+}
+
+tr:nth-child(odd){
+    background: #f1f1f1;
+}

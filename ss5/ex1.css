@@ -1,0 +1,18 @@
+.head{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:50px;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }

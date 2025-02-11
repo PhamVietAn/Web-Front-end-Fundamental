@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+
+.content{
+    padding-left: 30px;
+}
+
+h2{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    color: #000000;
+}
+
+.text{
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.category{
+    font-weight: bold;
+    color: #000000;
+}
+
+.description{
+    font-size: 18px;
+    color: #555555;
+}
