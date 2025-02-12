@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+}
+
+
+.table-content{
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-spacing: 15px;
+}
+.content label{
+    font-weight: bold;
+    
+}
+
+.content input{
+    padding: 4px;
+    border: 1px solid #d3d3d3;
+    border-radius: 2px;
+}
+
+.content button{
+    background-color: #007bff;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 2px;
+    width: 100%;
+    padding: 6px;
+}
