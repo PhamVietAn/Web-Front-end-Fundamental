@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #eceaea;
+    text-align: center;
+}
+
+.layout-table{
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+}
+
+.layout-table td{
+    padding: 10px;
+    text-align: center;
+}
+
+.card{
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 270px;
+    height: 140px;
+    text-align: center;
+    border: 2px solid #d1d1d1;
+}
+
+.card h2{
+    color: #c6242c;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card p{
+    color: #231751;
+    font-size: 14px;
+}
