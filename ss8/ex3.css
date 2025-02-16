@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    border-bottom: 2px solid rgb(245 107 107);
+    width: 180px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+td{
+    padding: 0px 50px;
+    border-right: 1px solid #e9e2e2;
+}
+img{
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+    object-position: 50% 40%;
+    border-radius: 10px;
+}
+h3{
+    padding: 20px 0px;
+}
+p{
+    padding-bottom: 20px;
+    color:#9598a3;
+    line-height: 25px;
+}
+button{
+    border: 3px solid rgb(245 107 107);
+    border-radius: 3px;
+    padding: 10px 23px;
+    background-color: white;
+    color:rgb(245 107 107);
+}
