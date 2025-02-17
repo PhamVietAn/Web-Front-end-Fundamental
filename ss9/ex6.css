@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: rgb(234, 234, 235);
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    height: 200px;
+    width: 90%;
+    background-color: white;
+}
+
+.line-1{
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-content: space-around ;
+    justify-content: space-around;
+}
+
+.line-2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around ;
+    justify-content: space-around;
+}
+
+.row-2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around ;
+    justify-content: space-around;
+}
+
+.big{
+    background-color: #2c3e50;
+    color: white;
+    width: 99%;
+    height: 47%;
+    text-align: center;
+}
+
+.smail{
+    background-color: #2c3e50;
+    color: white;
+    width: 49%;
+    height: 44%;
+    text-align: center;
+    align-content: center;
+}

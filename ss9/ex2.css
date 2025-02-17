@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 830px;
+    height: 120px;
+    background-color: #e7e8e9;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.child{
+    display: flex;
+    width: 24%;
+    height: 40%;
+    background-color: rgb(79, 212, 7);
+    justify-content: center;
+    align-items:  center;
+    border-radius: 5px;
+}
+

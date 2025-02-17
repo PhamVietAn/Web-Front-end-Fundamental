@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color:  #e5e5e5;
+}
+
+.centered{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: lightskyblue;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
