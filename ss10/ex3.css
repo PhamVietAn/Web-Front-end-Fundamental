@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.display{
+    width: 450px;
+    height: fit-content;
+    background-color: #f9fafc;
+    padding: 10px;
+    
+}
+
+.pic{
+    background-image: url(https://monroecountybasketball.com/wp-content/uploads/2020/11/the-basketball-equipment-P6VVJGU-370x208.jpg);
+    border-radius: 5px;
+    position: sticky;
+    margin-bottom: 20px;
+}
+
+.pic button{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 253, 253, 0.871);
+    color: rgba(255, 253, 253, 0.871);
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.infor{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.infor img{
+    width: 45px;
+    border-radius: 50%;
+}
+
+.infor p{
+    align-self: center;
+}
+
+.day{
+    color: #7f7f7f;
+    margin-bottom: 20px;
+}
+
+.content p{
+    color: #7f7f7f;
+    margin: 20px 0px;
+}
