@@ -1,0 +1,195 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+home{
+    font-family: "Outfit", serif;
+}
+
+
+.landingpage{
+    width: 1440px;
+    height: 6036px;
+}
+.display{
+    width: 1240px;
+    margin: auto;
+}
+
+.navbar{
+    height: 120px;
+}
+
+.bar{
+    width: 1240px;
+}
+
+.frame-3 {
+    width: 416px;
+}
+
+.frame-3 a{
+    color: black;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.bag-user{
+    height: 30px;
+}
+
+
+.title h1{
+    margin-top: 100px;
+    font-size: 69.2px;
+    font-weight: 64px;
+}
+
+.title p{
+    margin: auto;
+    margin-top: 30px;
+    height: 96px;
+    width: 796px;
+    font-size: 20px;
+    color: #afadb5;
+    text-align: center;
+}
+
+.pic1{
+    position: absolute;
+    top: 317px;
+    left: 155px;
+    transform: rotate(-67.19deg);
+}
+
+.pic2{
+    position: absolute;
+    top: 298px;
+    left: 1038px;
+}
+
+.rectangle-1 .search{
+    position: absolute;
+    left: 315px;
+    top: 562px;
+    width: 810px;
+    height: 84px;
+    color: #afadb5;
+}
+
+.form-control{
+    padding-left: 70px;
+}
+
+.search-normal-2{
+    position: absolute;
+    left: 341px;
+    top: 588px;
+    z-index: 1000;
+}
+
+.rectangle-1 .btn{
+    width: 170px;
+    height: 54px;
+    position: absolute;
+    left: 940px;
+    top: 577px;
+    background-color: #518581;
+    border: 0;
+}
+
+.rectangle-2{
+    margin-top: 92px;
+}
+
+
+.bnf{
+    width: 100%;
+    padding-top: 180px;
+}
+
+.frame-1096{
+    width: 427px;
+    height: 151px;
+}
+
+.frame-1096 p{
+    color: rgb(255, 178, 63);
+}
+
+.frame-1096 h1{
+    font-size:47.5px;
+    width: 450px;
+    font-weight: bold;
+}
+
+.frame-1096-2{
+    width: 505px;
+    height: 96px;
+}
+.frame-1096-2 p{
+    font-size:19.5px;
+    width: 505px;
+    height: 96px;
+    margin: 55px 0 0;
+}
+
+.card-box{
+    margin-top: 50px;
+}
+
+.card-bnf{
+    padding: 25px;
+    width: 394px;
+    height: 285px;
+    border: 0;
+    box-shadow: rgba(190, 190, 190, 0.055) 100px 100px 100px 100px;
+}
+
+.card img{
+    width: 62px;
+    height: 62px;
+    margin: 25px;
+}
+
+.text-orange{
+    margin: 80px 0 10px;
+    color: rgb(255, 178, 63);
+}
+
+.text-gray{
+    margin: auto;
+    margin-top: 30px;
+    width: 656px;
+    font-size: 21px;
+}
+
+.card-box-item{
+    overflow: hidden;
+    text-overflow: clip;
+    margin: auto;
+}
+
+.card-item{
+    width: 394px;
+    height: 544px;
+}
+
+.card-item .card-body p{
+    color: #afadb5;
+}
+
+.btn-back, .btn-next{
+    position: absolute;
+    top: 2250px;
+}
+
+.btn-back{
+    left: 50px;
+}
+
+.btn-next{
+    left: 1340px;
+}
