@@ -128,7 +128,6 @@ hr{
 }
 
 .footer{
-    height: 699px;
     width: 1280px;
 }
 
@@ -154,4 +153,37 @@ hr{
     margin-top: 40px;
     font-size: 17px;
     line-height: 27px;
+}
+
+.text-fields input{
+    background-color: #F3F3F3;
+    border: 0;
+    width: 530px;
+    height: 69px;
+    border-radius: 0;
+    padding: 21px 30px;
+    margin-bottom: 20px;
+}
+
+.text-fields :placeholder{
+    color: #2D2D2D;
+}
+
+.text-fields textarea{
+    background-color: #F3F3F3;
+    border: 0;
+    width: 530px;
+    height: 231px;
+    border-radius: 0;
+    padding: 21px 30px;
+    margin-bottom: 20px;
+}
+
+.text-fields button{
+    width: 235px;
+    height: 80px;
+    background-color:#2D2D2D;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
 }
