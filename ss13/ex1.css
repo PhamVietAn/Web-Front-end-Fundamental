@@ -181,9 +181,15 @@ home{
     color: #afadb5;
 }
 
+.back-next button{
+    background-color: transparent;
+    border: 0;
+}
+
 .btn-back, .btn-next{
     position: absolute;
     top: 2250px;
+    opacity: 0.9;
 }
 
 .btn-back{
@@ -192,4 +198,41 @@ home{
 
 .btn-next{
     left: 1340px;
+}
+.O-P-left h1{
+    width: 511px;
+    font-size: 44px;
+}
+
+.O-P-left p{
+    width: 520px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.O-P-left .btn{
+    margin: 50px 0;
+    width: 170px;
+    height: 54px;
+    background-color: #518581;
+    color: white;
+    font-weight:600 ;font-size: 18px;
+}
+
+.op-tag{
+    margin-top: 125px;
+}
+
+.op-tag h2{
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.op-tag p{
+    margin-bottom: 0px;
+}
+
+.op{
+    gap: 50px;
 }
