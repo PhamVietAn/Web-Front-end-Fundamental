@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: #111827;
+    font-family: "Inter", serif;
+
+}
+
+p{
+    margin: 0;
+}
+
+.display{
+    background-color: white;
+    width: 1440px;
+}
+
+.btn-nav{
+    visibility: hidden;
+    position: absolute;
+    left: 307px;
+    top: 0;
+}
+
+.nav{
+    height: 69px;
+    padding: 16px 80px;
+}
+
+.nav h2{
+    margin: 0 0 0 32px;
+    line-height: 36px;
+    letter-spacing: -2%;
+    font-size: 30px;
+}
+
+.contact-nav{
+    width: 554px;
+    gap: 24px;
+    
+}
+
+.contact-nav a{
+    color: #4B5563;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contact-nav p{
+    color: #f3f4f6;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.light-download{
+    gap: 16px;
+}
+
+.light-download button{
+    padding: 6px 16px;
+    border-radius: 12px;
+    border: 0;
+    background-color: #111827;
+    color: white;
+    width: 136px;
+}
+
+.hero{
+    height: 522px;
+    padding: 96px 80px;
+}
+
+.hero-2{
+    gap: 48px;
+    padding: 0 32px;
+}
+
+.hero-info{
+    gap: 48px;
+    width: 768px;
+    padding: 0 32px;
+}
+
+.img-hero img{
+    box-shadow: 32px 32px #E5E7EB;
+}
+
+.hr-i-h1{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2%;
+    margin-bottom: 16px;
+}
+
+.hr-i-p{
+    color: #4B5563;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.skills{
+    height: 412px;
+    padding: 96px 80px;
+}
+
+.main-skill{
+    gap: 48px;
+    padding: 0 32px;
+}
+
+.title-class{
+    width: 75px;
+    height: 28px;
+    padding: 4px 20px;
+    border-radius: 12px;
+    background-color: #E5E7EB;
+}
+
+.title-class p{
+    font-size: 14px;
+    color: #4B5563;
+    line-height: 20px;
+}
+
+.the-skill{
+    margin-top: 16px;
+    font-size: 20px;
+    color: #4B5563;
+}
+
+.works{
+    height: 1320px;
+    padding: 96px 80px;
+}
+
+.container{
+    padding: 64px;
+}
+
+
+.work-this{
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 64px;
+}
+
+.fiskil-1{
+    padding: 48px;
+    background-color: #F9FAFB;
+}
+
+.fiskil-1 img{
+    border-radius: 12px;
+}
+
+.f-t{
+    padding: 48px;
+}
+
+.f-t h2, p, div{
+    margin-bottom: 24px;
+}
+
+.long{
+    width: 112px;
+}
+
+.f-t ,.fiskil-1{
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.class{
+    gap: 8px;
+}
+
+.footer{
+    padding: 24px 80px;
+    text-align: center;
+    background-color: #F9FAFB;
+}
+
+@media screen and (max-width: 375px){
+    .contact-nav{
+        visibility: hidden;
+    }
+}
