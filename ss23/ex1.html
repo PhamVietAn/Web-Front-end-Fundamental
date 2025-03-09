@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr=[]
+        let str = ''
+        let count = 0
+        for (let i=0; i<10; i++) {
+            let input = +prompt(`Nhập phần tử thứ ${i+1}`)
+            arr[i] = input
+            if (input > 10) {
+                str += input.toString() + ' '
+                count ++
+            }
+        }
+        if (count > 0) {
+            alert(`Số lớn hơn 10: ${str}`)
+        } else {
+            alert("Không có số nào lớn hơn 10")
+        }
+    </script>
+</body>
+</html>

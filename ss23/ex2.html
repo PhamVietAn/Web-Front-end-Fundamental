@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = []
+        let maxArr = 0
+        let maxIndx = -1
+        
+        for (let i = 0; i < 10; i++) {
+            let input = +prompt(`Nhập phần tử thứ ${i + 1}:`)
+            arr[i] = input
+            if (input > maxArr) {
+                maxArr = input
+                maxIndx = i
+            }
+        }
+        
+        if (maxArr === 0) {
+            alert("Không có số lớn nhất")
+        } else {
+            alert(`Số lớn nhất: ${maxArr}\nVị trí: ${maxIndx}`)
+        }
+    </script>
+</body>
+</html>

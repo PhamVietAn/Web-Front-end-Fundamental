@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = []
+        let n = +prompt("Nhập số lượng phần tử:")
+        let str = 0
+        if (n > 0) {
+            for (let i = 0; i < n; i++) {
+                let input = prompt(`Nhập phần tử thứ ${i + 1}:`)
+                arr[i] = input
+                if (!isNaN(Number(input))) {
+                    str += Number(input)
+                }
+            }
+            alert(`Tổng các ký tự số: ${str}`)
+        } else if (n === 0) {
+            alert("Mảng không có phần tử")
+        } else {
+            alert("Số lượng phần tử không hợp lệ")
+        }
+    </script>
+</body>
+</html>
