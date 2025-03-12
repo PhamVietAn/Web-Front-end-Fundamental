@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = []
+        let n
+        do {
+            n = +prompt("Nhập số lượng email")
+            if (isNaN(n) || n < 0) {
+                alert("Vui lòng nhập đúng")
+            }
+        } while (isNaN(n) || n < 0)
+
+        for (let i = 0; i < n; i++) {
+            let str = prompt(`Nhập email thứ ${i + 1}:`)
+            if (!str.includes('@') || str.includes(' ')){
+                alert("Dữ liệu không hợp lệ")
+            }
+            arr.push(str)
+        }
+
+        let validEmails = arr.filter(email => email.includes('@') && !email.includes(' '));
+        if (validEmails.length === 0) {
+            alert("Mảng không có phần tử nào");
+        } else {
+            alert(validEmails);
+        }
+    </script>
+</body>
+</html>

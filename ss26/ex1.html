@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [];
+
+        for (let i = 0; i < 10; i++) {
+            let num = +prompt(`Nhập số nguyên thứ ${i + 1}:`);
+            while (isNaN(num)) {
+                alert("Dữ liệu không hợp lệ");
+                num = +prompt(`Vui lòng nhập lại số nguyên thứ ${i + 1}:`);
+            }
+            arr.push(num);
+        }
+
+        let number = arr.filter(num => num >= 10);
+
+        if (number.length === 0) {
+            alert("Mảng không có phần tử nào lớn hơn hoặc bằng 10");
+        } else {
+            alert(`Các số nguyên lớn hơn hoặc bằng 10 trong mảng: ${number.join(", ")}`);
+        }
+    </script>
+</body>
+</html>
