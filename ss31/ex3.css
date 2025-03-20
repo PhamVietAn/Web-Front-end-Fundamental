@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 400px;
+    margin: 5px ;
+    background-color: white;
+    border: 1px solid black;
+}
+p{
+    margin-bottom: 20px;
+}
+.color-box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: black;
+    border: 1px solid black;
+}
+.green {
+    background-color: green;
+    color: black;
+}
+.red {
+    background-color: red;
+    color: black;
+}
+.purple {
+    background-color: plum;
+    color: black;
+}
