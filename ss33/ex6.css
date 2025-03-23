@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+}
+
+.search-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 90%;
+    height: 36.4px;
+    padding: 0px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    position: absolute;
+    right: 15px;
+    width: 85px;
+    height: 38px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weather-card {
+    display: none;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.weather-card img {
+    width: 50px;
+}
+
+.local {
+    text-align: left;
+    margin: 0;
+}
+
+.boxWeather {
+    display: flex;
+}
+
+.temperature {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.weatherText {
+    text-align: left;
+    align-self: center;
+    margin-left: 30px;
+
+}
+
+.weatherText p {
+    margin: 5px;
+    
+}
