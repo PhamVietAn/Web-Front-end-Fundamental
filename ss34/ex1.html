@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ex1.css">
+</head>
+<body>
+    <div class="container bg-white p-4 mt-4">
+        <form action="" onsubmit="submitForm(event)">
+            <h1 class="text-center mb-2">Register</h1>
+            <label for="">Email:</label>
+            <input type="email" id="addEmail" class="form-control" placeholder="Enter your email address" required>
+            <label for="">Password:</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+            <label for="">Comfirm Password:</label>
+            <input type="password" class="form-control" id="confirmPass" placeholder="Enter your confirm password" required>
+            <br>
+            <button class="form-control btn btn-primary">Register</button>
+            <br>
+            <p id="message"></p>
+        </form>
+    </div>
+    
+    <script src="ex1.js"></script>
+</body>
+</html>
