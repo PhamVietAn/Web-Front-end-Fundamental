@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-body {
+    height: 278.12px;
+}
+
+.card-title {
+    height: 48px;
+}
+
+.card-text {
+    height: 96px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.form-control {
+    width: 90%;
+}

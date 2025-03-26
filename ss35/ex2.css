@@ -1,0 +1,46 @@
+body {
+    background-color: blueviolet;
+}
+
+.container {
+    width: 90%;
+}
+
+.modal-footer {
+    border-top: 0;
+    justify-content: start;
+}
+
+.btn-purple {
+    color: white;
+    background-color: blueviolet;
+    width: 120px;
+}
+
+.modal-header {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 0;
+}
+
+.addBookmark {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 0;
+    padding: 20px 30px;
+    font-size: xx-large;
+}
+
+.list {
+    margin: 0px 0px;
+}
+
+.btnX {
+    padding: 0 0;
+    color: white;
+}
+
+.elementBox {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 49%;
+}
