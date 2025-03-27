@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex1.css">
+</head>
+<body>
+    <div class="container" id="nameInputContainer">
+        <h2>Nhập tên của bạn</h2>
+        <input type="text" id="nameInput" placeholder="Nhập tên...">
+        <button onclick="saveName()">Lưu</button>
+    </div>
+    <div class="container" id="greetingContainer" style="display: none;">
+        <h2>👋 Chào bạn, <span id="greetingName"></span>!</h2>
+        <button onclick="changeName()">Đổi tên</button>
+    </div>
+
+    
+    <script src="ex1.js"></script>
+</body>
+</html>
